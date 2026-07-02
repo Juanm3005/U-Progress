@@ -1,0 +1,32 @@
+{
+  "name": "u-progress",
+  "version": "1.0.0",
+  "description": "U-Progress es una plataforma web diseñada para ayudar a los estudiantes universitarios a gestionar y visualizar su progreso académico. Permite seguir el avance de la carrera mediante la malla curricular, registrar las notas finales de cada materia, calcular promedios, controlar los créditos aprobados y estimar el tiempo restante para graduarse.",
+    "type": "module",
+  "main": "app/index.js",
+
+  "scripts": {
+    "dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanm3005/U-Progress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanm3005/U-Progress/issues"
+  },
+  "homepage": "https://github.com/Juanm3005/U-Progress#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

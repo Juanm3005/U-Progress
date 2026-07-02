@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-forms">
+            <h1><span class="letter-U">U</span>Progress</h1>
+
+            <h2>Bienvenido de nuevo</h2>
+
+            <h3>Inicia sesión para continuar con tu progreso</h3>
+
+            <form action="login.php" method="POST">
+
+                <span class="text">Email:</span>
+                <div class="input-container">
+
+
+                    <img src="../../assets/icon/login/mail_icon.png" alt="Email Icon">
+
+                    <input type="text" name="email" placeholder="Ingresa tu correo electrónico" required>
+
+                </div>
+
+                <span class="text">Contraseña:</span>
+                <div class="input-container">
+
+
+                    <img src="../../assets/icon/login/password_icon.png" alt="password Icon">
+
+                    <input type="password" name="password" placeholder="Ingresa tu contraseña" required>
+
+                </div>
+
+                <a href="" class="text-forgot">¿Olvidaste tu contraseña?</a>
+
+                <button type="submit" class="login-button">Iniciar sesión</button>
+
+
+                <div class="divider">
+                    <span></span>
+                    <p>o</p>
+                    <span></span>
+                </div>
+
+                <button type="button" class="google-button">
+                    <img src="../../assets/icon/login/google_icon.png" alt="Google">
+                    <span>Iniciar sesión con Google</span>
+                </button>
+            </form>
+            <h4>¿No tienes una cuenta? <a href="/register">Regístrate aquí</a></h4>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
